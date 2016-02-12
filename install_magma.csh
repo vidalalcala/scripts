@@ -3,7 +3,7 @@
 ####
 # This script install MAGMA
 # http://magma.maths.usyd.edu.au/magma/
-# in in ~/ (Ubuntu)
+# in in /opt (for Ubuntu platform)
 ####
 
 
@@ -13,7 +13,7 @@ setenv OPENBLASDIR /usr/opt/OpenBLAS
 source /opt/intel/composerxe/bin/compilervars.csh intel64
 
 # get source
-#mkdir ~/magma
+mkdir ~/magma
 cd ~/magma
 rm magma-2.0.0.tar.gz
 rm -rf magma-2.0.0
