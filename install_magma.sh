@@ -9,7 +9,7 @@
 
 # Magma setup
 export CUDADIR=/usr/local/cuda-7.5
-export OPENBLASDIR=/usr/opt/OpenBLAS
+export OPENBLASDIR=/opt/OpenBLAS
 source /opt/intel/composerxe/bin/compilervars.sh intel64
 
 # get source
