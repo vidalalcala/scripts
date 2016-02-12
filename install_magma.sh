@@ -15,8 +15,6 @@ source /opt/intel/composerxe/bin/compilervars.sh intel64
 # get source
 mkdir ~/magma
 cd ~/magma
-rm magma-2.0.0.tar.gz
-rm -rf magma-2.0.0
 wget http://icl.cs.utk.edu/projectsfiles/magma/downloads/magma-2.0.0.tar.gz
 tar -xzf magma-2.0.0.tar.gz
 
