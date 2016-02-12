@@ -27,4 +27,3 @@ make lib
 make test
 make sparse
 sudo make install prefix=/usr/local/magma
-
